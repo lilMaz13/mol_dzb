@@ -1,5 +1,10 @@
-# `ros2_cpp_template` package
-ROS 2 C++ package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-34aec5)](https://docs.ros.org/en/humble/)
+# `mol_dzb_turtle_heartbreak` package
+A TurtlesimHeartBreak egy ROS 2 node, amely egy turtlesim teknőc mozgását vezérli, először egy szív alakzatot rajzolva, majd egy cikcakk mintát hoz létre. 
+A node a következő funkciókat valósítja meg:
+
+Pen beállítások: Változtatja a toll színét, vastagságát és állapotát (rajzolás be/ki).
+Teleportálás: A teknőcöt egy meghatározott kezdőpontba teleportálja.
+Mozgás: Az alakzatok megrajzolásához különböző mozgási parancsokat küld a teknőcnek.
 ## Packages and build
 
 It is assumed that the workspace is `~/ros2_ws/`.
