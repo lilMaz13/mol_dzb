@@ -1,34 +1,38 @@
 cmake_minimum_required(VERSION 3.8)
-project(ros2_cpp_template)
-
-# Default to C++14
-if(NOT CMAKE_CXX_STANDARD)
-set(CMAKE_CXX_STANDARD 14)
-endif()
+project(turtle_heartbreak)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-add_compile_options(-Wall -Wextra -Wpedantic)
+  add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
+
 
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(turtlesim REQUIRED)
+find_package(std_msgs REQUIRED)
 
-set(ament_dependencies
+
+add_executable(turtle_heartbreak src/turtle_heartbreak.cpp)
+
+ament_target_dependencies(turtle_heartbreak
   rclcpp
-  std_msgs
   geometry_msgs
+  turtlesim
+  std_msgs
 )
 
-# add_executable(simple_sub_node src/print_pose.cpp)
-# ament_target_dependencies(simple_sub_node ${ament_dependencies} )
-
-install(DIRECTORY launch
-  DESTINATION share/${PROJECT_NAME})
-
 install(TARGETS
-# simple_sub_node
-DESTINATION lib/${PROJECT_NAME})
+turtle_heartbreak
+  DESTINATION lib/${PROJECT_NAME})
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  
+  set(ament_cmake_copyright_FOUND TRUE)
+  
+  set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
 
 ament_package()
