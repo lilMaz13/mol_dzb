@@ -1,4 +1,4 @@
-# `mol_dzb_turtle_heartbreak` package
+# `mol_dzb` package
 A TurtlesimHeartBreak egy ROS 2 node, amely egy turtlesim teknőc mozgását vezérli, először egy szív alakzatot rajzolva, majd egy cikcakk mintát hoz létre. 
 A node a következő funkciókat valósítja meg:
 
