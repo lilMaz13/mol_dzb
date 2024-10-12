@@ -1,0 +1,285 @@
+[0.000000] (-) TimerEvent: {}
+[0.001962] (turtle_superman) JobQueued: {'identifier': 'turtle_superman', 'dependencies': OrderedDict()}
+[0.002697] (turtle_superman) JobStarted: {'identifier': 'turtle_superman'}
+[0.018734] (turtle_superman) JobProgress: {'identifier': 'turtle_superman', 'progress': 'cmake'}
+[0.019068] (turtle_superman) Command: {'cmd': ['/usr/bin/cmake', '/home/ajr/ros2_ws/src/turtle_superman', '-DCMAKE_INSTALL_PREFIX=/home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman'], 'cwd': '/home/ajr/ros2_ws/src/turtle_superman/build/turtle_superman', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ajr'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/ajr/ros2_ws/install/pid_library/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{b01d11f2-2a2d-572d-bfd3-936f47373608}'), ('HOME', '/home/ajr'), ('OLDPWD', '/home/ajr/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'ajr1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ajr/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ajr'), ('NAME', 'PETI-LAPTOP-LENOVO'), ('WSL_INTEROP', '/run/WSL/363_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/ajr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/petim/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/petim/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/snap/bin'), ('WT_SESSION', '39fcfa80-54b7-4bd0-9291-0284088d79ae'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '73'), ('AMENT_PREFIX_PATH', '/home/ajr/ros2_ws/install/sim_wayp_plan_tools:/home/ajr/ros2_ws/install/wayp_plan_tools:/home/ajr/ros2_ws/install/use_library:/home/ajr/ros2_ws/install/turtle_square:/home/ajr/ros2_ws/install/speed_control_loop:/home/ajr/ros2_ws/install/pid_library:/home/ajr/ros2_ws/install/mol_dzb:/home/ajr/ros2_ws/install/gui_lexus:/home/ajr/ros2_ws/install/example_system:/home/ajr/ros2_ws/install/cpp_pubsub:/home/ajr/ros2_ws/install/arj_transforms_py:/home/ajr/ros2_ws/install/arj_transforms_cpp:/home/ajr/ros2_ws/install/arj_simple_perception:/home/ajr/ros2_ws/install/arj_local_planner:/home/ajr/ros2_ws/install/arj_intro_py:/home/ajr/ros2_ws/install/arj_intro_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ajr/ros2_ws/src/turtle_superman/build/turtle_superman'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ajr/ros2_ws/install/gui_lexus/lib/python3.10/site-packages:/home/ajr/ros2_ws/install/arj_transforms_py/lib/python3.10/site-packages:/home/ajr/ros2_ws/install/arj_intro_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ajr/ros2_ws/install/sim_wayp_plan_tools:/home/ajr/ros2_ws/install/wayp_plan_tools:/home/ajr/ros2_ws/install/use_library:/home/ajr/ros2_ws/install/turtle_square:/home/ajr/ros2_ws/install/speed_control_loop:/home/ajr/ros2_ws/install/pid_library:/home/ajr/ros2_ws/install/mol_dzb:/home/ajr/ros2_ws/install/example_system:/home/ajr/ros2_ws/install/cpp_pubsub:/home/ajr/ros2_ws/install/arj_transforms_cpp:/home/ajr/ros2_ws/install/arj_simple_perception:/home/ajr/ros2_ws/install/arj_local_planner:/home/ajr/ros2_ws/install/arj_intro_cpp:/home/ajr/ros2_ws/install/gui_lexus:/home/ajr/ros2_ws/install/arj_transforms_py:/home/ajr/ros2_ws/install/arj_intro_py:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.098132] (-) TimerEvent: {}
+[0.198593] (-) TimerEvent: {}
+[0.299206] (-) TimerEvent: {}
+[0.307967] (turtle_superman) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.399356] (-) TimerEvent: {}
+[0.499838] (-) TimerEvent: {}
+[0.600360] (-) TimerEvent: {}
+[0.700854] (-) TimerEvent: {}
+[0.801532] (-) TimerEvent: {}
+[0.902080] (-) TimerEvent: {}
+[0.907871] (turtle_superman) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.002226] (-) TimerEvent: {}
+[1.102670] (-) TimerEvent: {}
+[1.203220] (-) TimerEvent: {}
+[1.303734] (-) TimerEvent: {}
+[1.334018] (turtle_superman) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.403945] (-) TimerEvent: {}
+[1.504421] (-) TimerEvent: {}
+[1.531543] (turtle_superman) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.546563] (turtle_superman) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.547354] (turtle_superman) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.548309] (turtle_superman) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.554098] (turtle_superman) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.604632] (-) TimerEvent: {}
+[1.705042] (-) TimerEvent: {}
+[1.728487] (turtle_superman) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.739241] (turtle_superman) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.739657] (turtle_superman) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.740206] (turtle_superman) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.770233] (turtle_superman) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.805216] (-) TimerEvent: {}
+[1.907548] (-) TimerEvent: {}
+[1.983770] (turtle_superman) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.007694] (-) TimerEvent: {}
+[2.108156] (-) TimerEvent: {}
+[2.192837] (turtle_superman) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.208335] (-) TimerEvent: {}
+[2.308790] (-) TimerEvent: {}
+[2.409488] (-) TimerEvent: {}
+[2.480965] (turtle_superman) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.494994] (turtle_superman) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.509710] (-) TimerEvent: {}
+[2.523736] (turtle_superman) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.568953] (turtle_superman) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.609882] (-) TimerEvent: {}
+[2.620402] (turtle_superman) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.710063] (-) TimerEvent: {}
+[2.783600] (turtle_superman) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.792525] (turtle_superman) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.810244] (-) TimerEvent: {}
+[2.910800] (-) TimerEvent: {}
+[3.011307] (-) TimerEvent: {}
+[3.111928] (-) TimerEvent: {}
+[3.212451] (-) TimerEvent: {}
+[3.312988] (-) TimerEvent: {}
+[3.413452] (-) TimerEvent: {}
+[3.513950] (-) TimerEvent: {}
+[3.614506] (-) TimerEvent: {}
+[3.714981] (-) TimerEvent: {}
+[3.815440] (-) TimerEvent: {}
+[3.915934] (-) TimerEvent: {}
+[4.016401] (-) TimerEvent: {}
+[4.116916] (-) TimerEvent: {}
+[4.217439] (-) TimerEvent: {}
+[4.317953] (-) TimerEvent: {}
+[4.418447] (-) TimerEvent: {}
+[4.518945] (-) TimerEvent: {}
+[4.619689] (turtle_superman) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.619950] (-) TimerEvent: {}
+[4.720387] (-) TimerEvent: {}
+[4.820863] (-) TimerEvent: {}
+[4.921404] (-) TimerEvent: {}
+[5.021987] (-) TimerEvent: {}
+[5.122514] (-) TimerEvent: {}
+[5.222973] (-) TimerEvent: {}
+[5.323422] (-) TimerEvent: {}
+[5.423880] (-) TimerEvent: {}
+[5.524293] (-) TimerEvent: {}
+[5.624804] (-) TimerEvent: {}
+[5.725291] (-) TimerEvent: {}
+[5.825886] (-) TimerEvent: {}
+[5.926527] (-) TimerEvent: {}
+[6.027056] (-) TimerEvent: {}
+[6.127518] (-) TimerEvent: {}
+[6.227959] (-) TimerEvent: {}
+[6.328399] (-) TimerEvent: {}
+[6.428867] (-) TimerEvent: {}
+[6.484494] (turtle_superman) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.529032] (-) TimerEvent: {}
+[6.629577] (-) TimerEvent: {}
+[6.730082] (-) TimerEvent: {}
+[6.830552] (-) TimerEvent: {}
+[6.931027] (-) TimerEvent: {}
+[7.031656] (-) TimerEvent: {}
+[7.132272] (-) TimerEvent: {}
+[7.232796] (-) TimerEvent: {}
+[7.333302] (-) TimerEvent: {}
+[7.433906] (-) TimerEvent: {}
+[7.534529] (-) TimerEvent: {}
+[7.635247] (-) TimerEvent: {}
+[7.735816] (-) TimerEvent: {}
+[7.836373] (-) TimerEvent: {}
+[7.936955] (-) TimerEvent: {}
+[8.037442] (-) TimerEvent: {}
+[8.137947] (-) TimerEvent: {}
+[8.238536] (-) TimerEvent: {}
+[8.339068] (-) TimerEvent: {}
+[8.439538] (-) TimerEvent: {}
+[8.540056] (-) TimerEvent: {}
+[8.640664] (-) TimerEvent: {}
+[8.741253] (-) TimerEvent: {}
+[8.841825] (-) TimerEvent: {}
+[8.942353] (-) TimerEvent: {}
+[9.042920] (-) TimerEvent: {}
+[9.143452] (-) TimerEvent: {}
+[9.243967] (-) TimerEvent: {}
+[9.344484] (-) TimerEvent: {}
+[9.445083] (-) TimerEvent: {}
+[9.509119] (turtle_superman) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.539141] (turtle_superman) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.545296] (-) TimerEvent: {}
+[9.645900] (-) TimerEvent: {}
+[9.715790] (turtle_superman) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.716484] (turtle_superman) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.746074] (-) TimerEvent: {}
+[9.846542] (-) TimerEvent: {}
+[9.915201] (turtle_superman) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.917428] (turtle_superman) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.946714] (-) TimerEvent: {}
+[10.047170] (-) TimerEvent: {}
+[10.147629] (-) TimerEvent: {}
+[10.234353] (turtle_superman) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[10.247819] (-) TimerEvent: {}
+[10.325357] (turtle_superman) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[10.348003] (-) TimerEvent: {}
+[10.448474] (-) TimerEvent: {}
+[10.548972] (-) TimerEvent: {}
+[10.588583] (turtle_superman) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.649210] (-) TimerEvent: {}
+[10.749666] (-) TimerEvent: {}
+[10.755971] (turtle_superman) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.756454] (turtle_superman) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.756646] (turtle_superman) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.761073] (turtle_superman) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.766580] (turtle_superman) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.771124] (turtle_superman) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[10.790891] (turtle_superman) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.791147] (turtle_superman) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.795634] (turtle_superman) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.800212] (turtle_superman) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.829619] (turtle_superman) StdoutLine: {'line': b'-- Generating done\n'}
+[10.834326] (turtle_superman) StdoutLine: {'line': b'-- Build files have been written to: /home/ajr/ros2_ws/src/turtle_superman/build/turtle_superman\n'}
+[10.849281] (turtle_superman) CommandEnded: {'returncode': 0}
+[10.849935] (-) TimerEvent: {}
+[10.850628] (turtle_superman) JobProgress: {'identifier': 'turtle_superman', 'progress': 'build'}
+[10.853087] (turtle_superman) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ajr/ros2_ws/src/turtle_superman/build/turtle_superman', '--', '-j4', '-l4'], 'cwd': '/home/ajr/ros2_ws/src/turtle_superman/build/turtle_superman', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ajr'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/ajr/ros2_ws/install/pid_library/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{b01d11f2-2a2d-572d-bfd3-936f47373608}'), ('HOME', '/home/ajr'), ('OLDPWD', '/home/ajr/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'ajr1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ajr/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ajr'), ('NAME', 'PETI-LAPTOP-LENOVO'), ('WSL_INTEROP', '/run/WSL/363_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/ajr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/petim/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/petim/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/snap/bin'), ('WT_SESSION', '39fcfa80-54b7-4bd0-9291-0284088d79ae'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '73'), ('AMENT_PREFIX_PATH', '/home/ajr/ros2_ws/install/sim_wayp_plan_tools:/home/ajr/ros2_ws/install/wayp_plan_tools:/home/ajr/ros2_ws/install/use_library:/home/ajr/ros2_ws/install/turtle_square:/home/ajr/ros2_ws/install/speed_control_loop:/home/ajr/ros2_ws/install/pid_library:/home/ajr/ros2_ws/install/mol_dzb:/home/ajr/ros2_ws/install/gui_lexus:/home/ajr/ros2_ws/install/example_system:/home/ajr/ros2_ws/install/cpp_pubsub:/home/ajr/ros2_ws/install/arj_transforms_py:/home/ajr/ros2_ws/install/arj_transforms_cpp:/home/ajr/ros2_ws/install/arj_simple_perception:/home/ajr/ros2_ws/install/arj_local_planner:/home/ajr/ros2_ws/install/arj_intro_py:/home/ajr/ros2_ws/install/arj_intro_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ajr/ros2_ws/src/turtle_superman/build/turtle_superman'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ajr/ros2_ws/install/gui_lexus/lib/python3.10/site-packages:/home/ajr/ros2_ws/install/arj_transforms_py/lib/python3.10/site-packages:/home/ajr/ros2_ws/install/arj_intro_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ajr/ros2_ws/install/sim_wayp_plan_tools:/home/ajr/ros2_ws/install/wayp_plan_tools:/home/ajr/ros2_ws/install/use_library:/home/ajr/ros2_ws/install/turtle_square:/home/ajr/ros2_ws/install/speed_control_loop:/home/ajr/ros2_ws/install/pid_library:/home/ajr/ros2_ws/install/mol_dzb:/home/ajr/ros2_ws/install/example_system:/home/ajr/ros2_ws/install/cpp_pubsub:/home/ajr/ros2_ws/install/arj_transforms_cpp:/home/ajr/ros2_ws/install/arj_simple_perception:/home/ajr/ros2_ws/install/arj_local_planner:/home/ajr/ros2_ws/install/arj_intro_cpp:/home/ajr/ros2_ws/install/gui_lexus:/home/ajr/ros2_ws/install/arj_transforms_py:/home/ajr/ros2_ws/install/arj_intro_py:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[10.914615] (turtle_superman) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_superman.dir/src/turtle_superman.cpp.o\x1b[0m\n'}
+[10.950115] (-) TimerEvent: {}
+[11.050611] (-) TimerEvent: {}
+[11.151053] (-) TimerEvent: {}
+[11.251483] (-) TimerEvent: {}
+[11.351974] (-) TimerEvent: {}
+[11.452440] (-) TimerEvent: {}
+[11.552942] (-) TimerEvent: {}
+[11.653506] (-) TimerEvent: {}
+[11.754005] (-) TimerEvent: {}
+[11.854475] (-) TimerEvent: {}
+[11.955019] (-) TimerEvent: {}
+[12.055505] (-) TimerEvent: {}
+[12.156004] (-) TimerEvent: {}
+[12.256619] (-) TimerEvent: {}
+[12.357202] (-) TimerEvent: {}
+[12.457775] (-) TimerEvent: {}
+[12.558322] (-) TimerEvent: {}
+[12.658985] (-) TimerEvent: {}
+[12.759594] (-) TimerEvent: {}
+[12.860145] (-) TimerEvent: {}
+[12.960627] (-) TimerEvent: {}
+[13.061442] (-) TimerEvent: {}
+[13.161975] (-) TimerEvent: {}
+[13.262636] (-) TimerEvent: {}
+[13.363223] (-) TimerEvent: {}
+[13.463699] (-) TimerEvent: {}
+[13.564143] (-) TimerEvent: {}
+[13.664622] (-) TimerEvent: {}
+[13.765118] (-) TimerEvent: {}
+[13.865656] (-) TimerEvent: {}
+[13.966131] (-) TimerEvent: {}
+[14.066626] (-) TimerEvent: {}
+[14.167230] (-) TimerEvent: {}
+[14.267798] (-) TimerEvent: {}
+[14.368240] (-) TimerEvent: {}
+[14.468727] (-) TimerEvent: {}
+[14.569222] (-) TimerEvent: {}
+[14.669702] (-) TimerEvent: {}
+[14.770221] (-) TimerEvent: {}
+[14.870770] (-) TimerEvent: {}
+[14.971307] (-) TimerEvent: {}
+[15.071869] (-) TimerEvent: {}
+[15.172297] (-) TimerEvent: {}
+[15.272842] (-) TimerEvent: {}
+[15.373294] (-) TimerEvent: {}
+[15.473787] (-) TimerEvent: {}
+[15.574274] (-) TimerEvent: {}
+[15.674754] (-) TimerEvent: {}
+[15.775243] (-) TimerEvent: {}
+[15.875752] (-) TimerEvent: {}
+[15.976267] (-) TimerEvent: {}
+[16.076896] (-) TimerEvent: {}
+[16.177473] (-) TimerEvent: {}
+[16.277981] (-) TimerEvent: {}
+[16.378502] (-) TimerEvent: {}
+[16.478965] (-) TimerEvent: {}
+[16.579479] (-) TimerEvent: {}
+[16.680073] (-) TimerEvent: {}
+[16.780568] (-) TimerEvent: {}
+[16.881064] (-) TimerEvent: {}
+[16.981541] (-) TimerEvent: {}
+[17.082125] (-) TimerEvent: {}
+[17.182639] (-) TimerEvent: {}
+[17.283086] (-) TimerEvent: {}
+[17.383558] (-) TimerEvent: {}
+[17.484040] (-) TimerEvent: {}
+[17.584512] (-) TimerEvent: {}
+[17.684989] (-) TimerEvent: {}
+[17.785733] (-) TimerEvent: {}
+[17.886245] (-) TimerEvent: {}
+[17.986714] (-) TimerEvent: {}
+[18.087185] (-) TimerEvent: {}
+[18.187684] (-) TimerEvent: {}
+[18.288162] (-) TimerEvent: {}
+[18.388637] (-) TimerEvent: {}
+[18.489115] (-) TimerEvent: {}
+[18.589631] (-) TimerEvent: {}
+[18.690245] (-) TimerEvent: {}
+[18.790948] (-) TimerEvent: {}
+[18.891426] (-) TimerEvent: {}
+[18.992048] (-) TimerEvent: {}
+[19.092554] (-) TimerEvent: {}
+[19.193056] (-) TimerEvent: {}
+[19.293521] (-) TimerEvent: {}
+[19.394020] (-) TimerEvent: {}
+[19.494503] (-) TimerEvent: {}
+[19.595024] (-) TimerEvent: {}
+[19.695579] (-) TimerEvent: {}
+[19.796073] (-) TimerEvent: {}
+[19.896587] (-) TimerEvent: {}
+[19.916263] (turtle_superman) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_superman\x1b[0m\n'}
+[19.996757] (-) TimerEvent: {}
+[20.097241] (-) TimerEvent: {}
+[20.197791] (-) TimerEvent: {}
+[20.298454] (-) TimerEvent: {}
+[20.399086] (-) TimerEvent: {}
+[20.499600] (-) TimerEvent: {}
+[20.500154] (turtle_superman) StdoutLine: {'line': b'[100%] Built target turtle_superman\n'}
+[20.514197] (turtle_superman) CommandEnded: {'returncode': 0}
+[20.554840] (turtle_superman) JobProgress: {'identifier': 'turtle_superman', 'progress': 'install'}
+[20.565333] (turtle_superman) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ajr/ros2_ws/src/turtle_superman/build/turtle_superman'], 'cwd': '/home/ajr/ros2_ws/src/turtle_superman/build/turtle_superman', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ajr'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/ajr/ros2_ws/install/pid_library/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{b01d11f2-2a2d-572d-bfd3-936f47373608}'), ('HOME', '/home/ajr'), ('OLDPWD', '/home/ajr/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'ajr1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ajr/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ajr'), ('NAME', 'PETI-LAPTOP-LENOVO'), ('WSL_INTEROP', '/run/WSL/363_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/ajr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/petim/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/petim/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/snap/bin'), ('WT_SESSION', '39fcfa80-54b7-4bd0-9291-0284088d79ae'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '73'), ('AMENT_PREFIX_PATH', '/home/ajr/ros2_ws/install/sim_wayp_plan_tools:/home/ajr/ros2_ws/install/wayp_plan_tools:/home/ajr/ros2_ws/install/use_library:/home/ajr/ros2_ws/install/turtle_square:/home/ajr/ros2_ws/install/speed_control_loop:/home/ajr/ros2_ws/install/pid_library:/home/ajr/ros2_ws/install/mol_dzb:/home/ajr/ros2_ws/install/gui_lexus:/home/ajr/ros2_ws/install/example_system:/home/ajr/ros2_ws/install/cpp_pubsub:/home/ajr/ros2_ws/install/arj_transforms_py:/home/ajr/ros2_ws/install/arj_transforms_cpp:/home/ajr/ros2_ws/install/arj_simple_perception:/home/ajr/ros2_ws/install/arj_local_planner:/home/ajr/ros2_ws/install/arj_intro_py:/home/ajr/ros2_ws/install/arj_intro_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ajr/ros2_ws/src/turtle_superman/build/turtle_superman'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ajr/ros2_ws/install/gui_lexus/lib/python3.10/site-packages:/home/ajr/ros2_ws/install/arj_transforms_py/lib/python3.10/site-packages:/home/ajr/ros2_ws/install/arj_intro_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ajr/ros2_ws/install/sim_wayp_plan_tools:/home/ajr/ros2_ws/install/wayp_plan_tools:/home/ajr/ros2_ws/install/use_library:/home/ajr/ros2_ws/install/turtle_square:/home/ajr/ros2_ws/install/speed_control_loop:/home/ajr/ros2_ws/install/pid_library:/home/ajr/ros2_ws/install/mol_dzb:/home/ajr/ros2_ws/install/example_system:/home/ajr/ros2_ws/install/cpp_pubsub:/home/ajr/ros2_ws/install/arj_transforms_cpp:/home/ajr/ros2_ws/install/arj_simple_perception:/home/ajr/ros2_ws/install/arj_local_planner:/home/ajr/ros2_ws/install/arj_intro_cpp:/home/ajr/ros2_ws/install/gui_lexus:/home/ajr/ros2_ws/install/arj_transforms_py:/home/ajr/ros2_ws/install/arj_intro_py:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[20.575514] (turtle_superman) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.576846] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/lib/turtle_superman/turtle_superman\n'}
+[20.581436] (turtle_superman) StdoutLine: {'line': b'-- Set runtime path of "/home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/lib/turtle_superman/turtle_superman" to ""\n'}
+[20.582824] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/ament_index/resource_index/package_run_dependencies/turtle_superman\n'}
+[20.583416] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/ament_index/resource_index/parent_prefix_path/turtle_superman\n'}
+[20.584847] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/turtle_superman/environment/ament_prefix_path.sh\n'}
+[20.585172] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/turtle_superman/environment/ament_prefix_path.dsv\n'}
+[20.585615] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/turtle_superman/environment/path.sh\n'}
+[20.585929] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/turtle_superman/environment/path.dsv\n'}
+[20.586206] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/turtle_superman/local_setup.bash\n'}
+[20.586495] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/turtle_superman/local_setup.sh\n'}
+[20.586859] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/turtle_superman/local_setup.zsh\n'}
+[20.587854] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/turtle_superman/local_setup.dsv\n'}
+[20.588177] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/turtle_superman/package.dsv\n'}
+[20.589016] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/ament_index/resource_index/packages/turtle_superman\n'}
+[20.589739] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/turtle_superman/cmake/turtle_supermanConfig.cmake\n'}
+[20.590040] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/turtle_superman/cmake/turtle_supermanConfig-version.cmake\n'}
+[20.590609] (turtle_superman) StdoutLine: {'line': b'-- Installing: /home/ajr/ros2_ws/src/turtle_superman/install/turtle_superman/share/turtle_superman/package.xml\n'}
+[20.593476] (turtle_superman) CommandEnded: {'returncode': 0}
+[20.599773] (-) TimerEvent: {}
+[20.670077] (turtle_superman) JobEnded: {'identifier': 'turtle_superman', 'rc': 0}
+[20.672131] (-) EventReactorShutdown: {}

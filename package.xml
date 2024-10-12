@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mol_dzb</name>
+  <version>0.0.1</version>
+  <description>Draws a simplified heart with cracks down the middle</description>
+  
+  <!-- Maintainer information -->
+  <maintainer email="petimazsi08@gmail.com">Molnar-Peter</maintainer>
+
+  <!-- License declaration -->
+  <license>Apache-2.0</license>
+
+  <!-- Build tool dependency -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencies for your package -->
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>turtlesim</depend>
+  <depend>std_msgs</depend>
+
+  <!-- Test dependencies (if applicable) -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- Export build type -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

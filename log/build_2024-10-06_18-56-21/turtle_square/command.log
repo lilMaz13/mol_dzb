@@ -1,0 +1,6 @@
+Invoking command in '/home/ajr/ros2_ws/turtle_square/build/turtle_square': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ajr/ros2_ws/turtle_square -DCMAKE_INSTALL_PREFIX=/home/ajr/ros2_ws/turtle_square/install/turtle_square
+Invoked command in '/home/ajr/ros2_ws/turtle_square/build/turtle_square' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ajr/ros2_ws/turtle_square -DCMAKE_INSTALL_PREFIX=/home/ajr/ros2_ws/turtle_square/install/turtle_square
+Invoking command in '/home/ajr/ros2_ws/turtle_square/build/turtle_square': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ajr/ros2_ws/turtle_square/build/turtle_square -- -j4 -l4
+Invoked command in '/home/ajr/ros2_ws/turtle_square/build/turtle_square' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ajr/ros2_ws/turtle_square/build/turtle_square -- -j4 -l4
+Invoking command in '/home/ajr/ros2_ws/turtle_square/build/turtle_square': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ajr/ros2_ws/turtle_square/build/turtle_square
+Invoked command in '/home/ajr/ros2_ws/turtle_square/build/turtle_square' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ajr/ros2_ws/turtle_square/build/turtle_square
