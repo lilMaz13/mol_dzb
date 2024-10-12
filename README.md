@@ -39,22 +39,5 @@ ros2 run mol_dzb turtle_heartbreak
 
 
 ### Mermaid Diagram
-graph TD
-    subgraph Nodes
-        A[TurtlesimHeartBreak Node]
-    end
+![Turtlesim Heartbreak Diagram](img/turtle_hBreak_mermaidG.png)
 
-    subgraph Services
-        B[turtle1 set_pen Service]
-        C[turtle1 teleport_absolute Service]
-    end
-    
-    subgraph Topics
-        D[turtle1 cmd_vel Topic]
-        E[turtle1 pose Topic]
-    end
-
-    A -->|Subscribes| E
-    A -->|Publishes| D
-    A -->|Calls| B
-    A -->|Calls| C
